@@ -4,11 +4,17 @@ int main() {
 
 int a;
 int b;
+int c;
 
-printf("Enter the two numbers : ");
-scanf("%d %d", &a, &b);
+char *name;
 
-printf("Sum : " , (a+b));
+scanf("%s",&name);
+printf("%s\n",name);
 
-retun 0;
+printf("Enter the three numbers : ");
+scanf("%d %d %d", &a, &b, &c);
+
+printf("Sum : " , (a+b+c));
+
+return 0;
 }
