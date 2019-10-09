@@ -7,6 +7,7 @@ void swap(int *p1,int *p2)
 }
 void main()
 { int w1,w2;
+printf("Welcome to swaping Numbers")
 printf("enter the 2 numbers ");
 scanf("%d",&w1);
 scanf("%d",&w2);
